@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* font-family: 'Kanit', sans-serif; */
+
+/* Varibles */
+/* Styles that can be reused */
+
+
+:root {
+    --primary-color: #795379;
+    --primary-color-100: #EAE1EA;
+    --primary-color-300: #C1A4C1;
+
+    --secondary-color: #9FFA6E;
+    --secondary-color-600: #49C507;
+    --secondary-color-900: #123102;
+
+    --neutral-color: #E2DFD2;
+
+    --background-color: #232b2b;
+
+    --surface-color: #252525;
+
+    --kanit-font: 'Kanit', sans-serif;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* General Styles */
+/* Styles that are applied to all elements */
+
+html {
+    font-size: 10px;
+    background-color: var(--neutral-color);
+}
+
+* {
+    font-family: var(--kanit-font);
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+/* Text Style */
+
+/* h1 {
+    color: var(--secondary-color-600);
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+h2 {
+    color: var(--primary-color-300);
+    font-family: var(--playfair-font);
+    font-weight: 400;
+    letter-spacing: 0.06rem;
+    font-size: 1.8rem;
+}
+
+p {
+    color: var(--neutral-color);
+    font-size: 1.1rem;
+} */
